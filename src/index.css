@@ -1,0 +1,28 @@
+.price {
+    color: blueviolet;
+
+}
+
+.price-discount {
+    color: green;
+    background-color: aqua;
+}
+
+body {
+    background: #f8f9fa;
+}
+
+.card {
+    transition: transform .15s, box-shadow .15s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .15);
+}
+
+
+
+footer .badge {
+    font-size: .9rem;
+}

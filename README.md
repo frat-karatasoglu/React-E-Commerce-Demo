@@ -81,3 +81,4 @@ Product prices are provided in USD by Fake Store API and converted approximately
 This project is for learning/demonstration purposes only.
 
 🚀 Live Demo
+https://tangerine-cheesecake-c87d7c.netlify.app/

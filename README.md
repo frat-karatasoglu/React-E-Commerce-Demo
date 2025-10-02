@@ -49,22 +49,19 @@ The goal was to practice component structure, props/state management, event hand
    cd react-ecommerce-demo
 Install dependencies:
 
-bash
-Kodu kopyala
+
 npm install
 Start development server:
 
-bash
-Kodu kopyala
+
 npm run dev
 Open in browser:
 
-arduino
-Kodu kopyala
+
 http://localhost:5173/
 📂 Project Structure
 css
-Kodu kopyala
+
 src/
   api.js
   App.jsx

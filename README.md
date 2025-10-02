@@ -32,10 +32,12 @@ The goal was to practice component structure, props/state management, event hand
 ## 📸 Screenshots
 
 ### Home Page
-![Product List](./screenshots/product-list.png)
+<img width="1917" height="929" alt="image" src="https://github.com/user-attachments/assets/80cdea11-ca61-4cef-977f-1a10e0ea354b" />
+
 
 ### Cart Modal
-![Cart Modal](./screenshots/cart-modal.png)
+<img width="497" height="315" alt="image" src="https://github.com/user-attachments/assets/dcd765a2-f97f-48d5-ad53-661ca1fd8b0e" />
+
 
 ---
 

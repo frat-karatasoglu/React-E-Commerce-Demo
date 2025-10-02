@@ -1,12 +1,84 @@
-# React + Vite
+# 🛍️ React E-Commerce Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **mini e-commerce application** I built while learning React.  
+The goal was to practice component structure, props/state management, event handling, conditional rendering, API consumption, and building a modern UI with Bootstrap.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Product List**: Dynamic products fetched from [Fake Store API](https://fakestoreapi.com/).
+- **Search**: Filter products by title.
+- **Category Filter**: Filter products by categories provided from API.
+- **Price Sorting**: Sort products from low to high or high to low.
+- **Cart System**:
+  - Add / remove products
+  - Manage product quantity
+  - Calculate total price
+  - Clear cart
+- **Cart Modal**: Bootstrap modal displaying cart details.
+- **Dynamic Footer**: Shows open/close status based on store hours.
+- **Responsive Design**: Works on both mobile and desktop.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/) (CSS & Modal)
+- [Fake Store API](https://fakestoreapi.com/) (product data)
+- ES6+ JavaScript, Hooks (`useState`, `useEffect`, `useMemo`)
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Product List](./screenshots/product-list.png)
+
+### Cart Modal
+![Cart Modal](./screenshots/cart-modal.png)
+
+---
+
+## 📦 Installation & Running
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/react-ecommerce-demo.git
+   cd react-ecommerce-demo
+Install dependencies:
+
+bash
+Kodu kopyala
+npm install
+Start development server:
+
+bash
+Kodu kopyala
+npm run dev
+Open in browser:
+
+arduino
+Kodu kopyala
+http://localhost:5173/
+📂 Project Structure
+css
+Kodu kopyala
+src/
+  api.js
+  App.jsx
+  main.jsx
+  index.css
+  components/
+    Header.jsx
+    Footer.jsx
+    Product.jsx
+    ProductList.jsx
+    CartModal.jsx
+📝 Notes
+StrictMode in development may trigger API fetch twice, causing an AbortError. This error is safely ignored in the code.
+
+Product prices are provided in USD by Fake Store API and converted approximately to TL for demo purposes.
+
+This project is for learning/demonstration purposes only.
+
+🚀 Live Demo
